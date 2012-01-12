@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/friends_search_wrapper"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:visibility = "gone">
+    
+    <EditText 
+    android:id="@+id/friends_search_input"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Type your friend's name here."/>
+    
+    <Button 
+    android:id="@+id/friends_search_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="Search!"/>
+    
+    <TextView
+    android:id="@+id/friends_search_none"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="No results were found."
+    android:visibility = "gone"
+    />
+    
+    <ListView 
+    android:id="@+id/friends_search_results"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+    
+</LinearLayout>

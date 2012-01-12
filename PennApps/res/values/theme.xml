@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="color1">#0066FF</color>
+	<color name="color2">#FFFFFF</color>
+	<style name="CodeFont">
+    <item name="android:textColor">@color/color1</item>
+    <item name="android:background">@color/color2</item>
+    </style>
+</resources>

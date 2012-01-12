@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="18" version="2.0">
+<workbenchAdvisor/>
+<window height="760" maximized="true" width="1024" x="127" y="17">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="221"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1316217115713" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="6"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/main.xml" title="main.xml" tooltip="PennApps/res/layout/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/main.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TabWidgetActivity.java" partName="TabWidgetActivity.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/TabWidgetActivity.java" title="TabWidgetActivity.java" tooltip="PennApps/src/com/davidxu/pennapps/TabWidgetActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/TabWidgetActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1176" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MapTabActivity.java" partName="MapTabActivity.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/MapTabActivity.java" title="MapTabActivity.java" tooltip="PennApps/src/com/davidxu/pennapps/MapTabActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/MapTabActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3854" selectionTopPixel="791"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="tab_layout.xml" partName="tab_layout.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/tab_layout.xml" title="tab_layout.xml" tooltip="PennApps/res/layout/tab_layout.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/tab_layout.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventsActivity.java" partName="EventsActivity.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/EventsActivity.java" title="EventsActivity.java" tooltip="PennApps/src/com/davidxu/pennapps/EventsActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/EventsActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4610" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FriendsActivity.java" partName="FriendsActivity.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/FriendsActivity.java" title="FriendsActivity.java" tooltip="PennApps/src/com/davidxu/pennapps/FriendsActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/FriendsActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="29" selectionOffset="5306" selectionTopPixel="1489"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProfileActivity.java" partName="ProfileActivity.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/ProfileActivity.java" title="ProfileActivity.java" tooltip="PennApps/src/com/davidxu/pennapps/ProfileActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/ProfileActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1400" selectionTopPixel="326"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="events_new.xml" partName="events_new.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/events_new.xml" title="events_new.xml" tooltip="PennApps/res/layout/events_new.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/events_new.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="friends_list.xml" partName="friends_list.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/friends_list.xml" title="friends_list.xml" tooltip="PennApps/res/layout/friends_list.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/friends_list.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="friends_search.xml" partName="friends_search.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/friends_search.xml" title="friends_search.xml" tooltip="PennApps/res/layout/friends_search.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/friends_search.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="friends_search_result.xml" partName="friends_search_result.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/friends_search_result.xml" title="friends_search_result.xml" tooltip="PennApps/res/layout/friends_search_result.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/friends_search_result.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PennAppsActivity.java" partName="PennAppsActivity.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/PennAppsActivity.java" title="PennAppsActivity.java" tooltip="PennApps/src/com/davidxu/pennapps/PennAppsActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/PennAppsActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6229" selectionTopPixel="1905"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="friends_list_result.xml" partName="friends_list_result.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/friends_list_result.xml" title="friends_list_result.xml" tooltip="PennApps/res/layout/friends_list_result.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/friends_list_result.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HttpRequest.java" partName="HttpRequest.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/util/HttpRequest.java" title="HttpRequest.java" tooltip="PennApps/src/com/davidxu/pennapps/util/HttpRequest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/util/HttpRequest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3808" selectionTopPixel="1271"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="friends_distance_dialog.xml" partName="friends_distance_dialog.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/friends_distance_dialog.xml" title="friends_distance_dialog.xml" tooltip="PennApps/res/layout/friends_distance_dialog.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/friends_distance_dialog.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LocationService.java" partName="LocationService.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/LocationService.java" title="LocationService.java" tooltip="PennApps/src/com/davidxu/pennapps/LocationService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/LocationService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1861" selectionTopPixel="446"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WhatsHappeningImageActivity.java" partName="WhatsHappeningImageActivity.java" path="C:/Users/David/Documents/temp/Documents/workspace/A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/whatshappening/WhatsHappeningImageActivity.java" title="WhatsHappeningImageActivity.java" tooltip="A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/whatshappening/WhatsHappeningImageActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/whatshappening/WhatsHappeningImageActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="23979" selectionTopPixel="8895"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="profile_layout.xml" partName="profile_layout.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/profile_layout.xml" title="profile_layout.xml" tooltip="PennApps/res/layout/profile_layout.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/profile_layout.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InstagramImageManager.java" partName="InstagramImageManager.java" path="C:/Users/David/Documents/temp/Documents/workspace/A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/whatshappening/InstagramImageManager.java" title="InstagramImageManager.java" tooltip="A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/whatshappening/InstagramImageManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/whatshappening/InstagramImageManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="map_layout.xml" partName="map_layout.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/map_layout.xml" title="map_layout.xml" tooltip="PennApps/res/layout/map_layout.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/map_layout.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="wh_map.xml" partName="wh_map.xml" path="C:/Users/David/Documents/temp/Documents/workspace/A-YPMAndroidNew with Whats Happening Here/res/layout/wh_map.xml" title="wh_map.xml" tooltip="A-YPMAndroidNew with Whats Happening Here/res/layout/wh_map.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/A-YPMAndroidNew with Whats Happening Here/res/layout/wh_map.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="PennApps Manifest" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/AndroidManifest.xml" title="PennApps Manifest" tooltip="PennApps/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/AndroidManifest.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MapItemizedOverlay.java" partName="MapItemizedOverlay.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/MapItemizedOverlay.java" title="MapItemizedOverlay.java" tooltip="PennApps/src/com/davidxu/pennapps/MapItemizedOverlay.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/MapItemizedOverlay.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="576" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="events_single.xml" partName="events_single.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/events_single.xml" title="events_single.xml" tooltip="PennApps/res/layout/events_single.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/events_single.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyLocation.java" partName="MyLocation.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/location/MyLocation.java" title="MyLocation.java" tooltip="PennApps/src/com/davidxu/pennapps/location/MyLocation.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/location/MyLocation.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1166"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EasySSLSocketFactory.java" partName="EasySSLSocketFactory.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/util/EasySSLSocketFactory.java" title="EasySSLSocketFactory.java" tooltip="PennApps/src/com/davidxu/pennapps/util/EasySSLSocketFactory.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/util/EasySSLSocketFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1136"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EasyX509TrustManager.java" partName="EasyX509TrustManager.java" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/src/com/davidxu/pennapps/util/EasyX509TrustManager.java" title="EasyX509TrustManager.java" tooltip="PennApps/src/com/davidxu/pennapps/util/EasyX509TrustManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/src/com/davidxu/pennapps/util/EasyX509TrustManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="551"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="events_layout.xml" partName="events_layout.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/events_layout.xml" title="events_layout.xml" tooltip="PennApps/res/layout/events_layout.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/events_layout.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="events_invites.xml" partName="events_invites.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/events_invites.xml" title="events_invites.xml" tooltip="PennApps/res/layout/events_invites.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/events_invites.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="theme.xml" partName="theme.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/values/theme.xml" title="theme.xml" tooltip="PennApps/res/values/theme.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/values/theme.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.color.ColorEditor" name="colors.xml" partName="colors.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/color/colors.xml" title="colors.xml" tooltip="PennApps/res/color/colors.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/color/colors.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="splash_register.xml" partName="splash_register.xml" path="C:/Users/David/Documents/School/Workspaces/PennApps/PennApps/res/layout/splash_register.xml" title="splash_register.xml" tooltip="PennApps/res/layout/splash_register.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PennApps/res/layout/splash_register.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HttpRequest.java" partName="HttpRequest.java" path="C:/Users/David/Documents/temp/Documents/workspace/A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/deals/HttpRequest.java" title="HttpRequest.java" tooltip="A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/deals/HttpRequest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/deals/HttpRequest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2311" selectionTopPixel="870"/>
+</editor>
+</editors>
+<views>
+<view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.ThreadView" partName="Threads">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.HeapView" partName="Heap">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" partName="File Explorer">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1316217115713">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.EmulatorControlView" partName="Emulator Control">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@47eaec" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.24034673" ratioLeft="305" ratioRight="964" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.75153375" ratioLeft="490" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.DeviceView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.FileExplorerView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.HeapView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.AllocTrackerView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.ThreadView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.android.ide.eclipse.ddms.views.DeviceView"/>
+<view id="com.android.ide.eclipse.ddms.views.EmulatorControlView"/>
+<view id="com.android.ide.eclipse.ddms.views.ThreadView"/>
+<view id="com.android.ide.eclipse.ddms.views.HeapView"/>
+<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView"/>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="devices">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.DeviceView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.DeviceView" label="Devices"/>
+<page content="com.android.ide.eclipse.ddms.views.DeviceView:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495854" ratioLeft="904" ratioRight="302" relationship="2" relative="devices">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="logcat" ratio="0.48312885" ratioLeft="315" ratioRight="337" relationship="4" relative="devices">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.29675812" ratioLeft="357" ratioRight="846" relationship="2" relative="devices"/>
+<info folder="true" part="ddms-detail" ratio="0.49940827" ratioLeft="422" ratioRight="423" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.AllocTrackerView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.ThreadView" label="Threads"/>
+<page content="com.android.ide.eclipse.ddms.views.HeapView" label="Heap"/>
+<page content="com.android.ide.eclipse.ddms.views.AllocTrackerView" label="Allocation Tracker"/>
+<page content="com.android.ide.eclipse.ddms.views.FileExplorerView" label="File Explorer"/>
+<page content="com.android.ide.eclipse.ddms.views.ThreadView:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="emulator" ratio="0.5" ratioLeft="278" ratioRight="278" relationship="4" relative="devices">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.EmulatorControlView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.EmulatorControlView" label="Emulator Control"/>
+<page content="com.android.ide.eclipse.ddms.views.EmulatorControlView:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.DeviceView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495854" ratioLeft="904" ratioRight="302" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7653374" ratioLeft="499" ratioRight="153" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@108cb6a" ratio="0.5" ratioLeft="603" ratioRight="603" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.42137095" ratioLeft="209" ratioRight="287" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495854" ratioLeft="904" ratioRight="302" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="603" ratioRight="603" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PennApps/src/com/davidxu/pennapps/FriendsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/events_invites.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/events_layout.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/friends_list.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/PennApps/res/layout/splash_register.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/friends_list_result.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/profile_layout.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/map_layout.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/events_new.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/events_single.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/friends_distance_dialog.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/friends_search_result.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/PennApps/res/layout/friends_search.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PennApps/src/com/davidxu/pennapps/TabWidgetActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/deals/HttpRequest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PennApps/src/com/davidxu/pennapps/EventsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PennApps/src/com/davidxu/pennapps/FriendsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PennApps/src/com/davidxu/pennapps/LocationService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PennApps/src/com/davidxu/pennapps/MapTabActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PennApps/src/com/davidxu/pennapps/ProfileActivity.java"/>
+</editors>
+<item historyLabel="main.xml" index="1"/>
+<item historyLabel="FriendsActivity.java" index="0">
+<position info="not_deleted" x="8813" y="0"/>
+</item>
+<item historyLabel="main.xml" index="1"/>
+<item historyLabel="friends_list.xml" index="4"/>
+<item historyLabel="splash_register.xml" index="5"/>
+<item historyLabel="profile_layout.xml" index="7"/>
+<item historyLabel="map_layout.xml" index="8"/>
+<item historyLabel="splash_register.xml" index="5"/>
+<item historyLabel="events_layout.xml" index="3"/>
+<item historyLabel="events_invites.xml" index="2"/>
+<item historyLabel="events_new.xml" index="9"/>
+<item historyLabel="events_single.xml" index="10"/>
+<item historyLabel="friends_distance_dialog.xml" index="11"/>
+<item historyLabel="friends_list_result.xml" index="6"/>
+<item historyLabel="friends_list.xml" index="4"/>
+<item historyLabel="friends_search_result.xml" index="12"/>
+<item historyLabel="friends_search.xml" index="13"/>
+<item historyLabel="main.xml" index="1"/>
+<item historyLabel="map_layout.xml" index="8"/>
+<item historyLabel="main.xml" index="1"/>
+<item historyLabel="friends_list.xml" index="4"/>
+<item historyLabel="main.xml" index="1"/>
+<item historyLabel="TabWidgetActivity.java" index="14">
+<position info="not_deleted" x="1727" y="0"/>
+</item>
+<item historyLabel="TabWidgetActivity.java" index="14">
+<position info="not_deleted" x="366" y="0"/>
+</item>
+<item historyLabel="TabWidgetActivity.java" index="14">
+<position info="not_deleted" x="1677" y="40"/>
+</item>
+<item historyLabel="TabWidgetActivity.java" index="14">
+<position info="not_deleted" x="1797" y="0"/>
+</item>
+<item historyLabel="TabWidgetActivity.java" index="14">
+<position info="not_deleted" x="1716" y="0"/>
+</item>
+<item historyLabel="TabWidgetActivity.java" index="14">
+<position info="not_deleted" x="1971" y="43"/>
+</item>
+<item historyLabel="HttpRequest.java" index="15">
+<position info="not_deleted" x="2311" y="0"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="4970" y="0"/>
+</item>
+<item historyLabel="FriendsActivity.java" index="17">
+<position info="not_deleted" x="8846" y="0"/>
+</item>
+<item historyLabel="FriendsActivity.java" index="17">
+<position info="not_deleted" x="5341" y="53"/>
+</item>
+<item historyLabel="FriendsActivity.java" index="17">
+<position info="not_deleted" x="5335" y="0"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="2996" y="0"/>
+</item>
+<item historyLabel="TabWidgetActivity.java" index="14">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="FriendsActivity.java" index="17">
+<position info="not_deleted" x="5306" y="29"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="2996" y="0"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="2949" y="0"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="3454" y="66"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="3395" y="0"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="3830" y="89"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="1702" y="0"/>
+</item>
+<item historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="3934" y="0"/>
+</item>
+<item historyLabel="TabWidgetActivity.java" index="14">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="FriendsActivity.java" index="17">
+<position info="not_deleted" x="5306" y="29"/>
+</item>
+<item historyLabel="LocationService.java" index="18">
+<position info="not_deleted" x="1681" y="0"/>
+</item>
+<item historyLabel="MapTabActivity.java" index="19">
+<position info="not_deleted" x="1875" y="0"/>
+</item>
+<item historyLabel="MapTabActivity.java" index="19">
+<position info="not_deleted" x="1315" y="0"/>
+</item>
+<item historyLabel="ProfileActivity.java" index="20">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item active="true" historyLabel="EventsActivity.java" index="16">
+<position info="not_deleted" x="3956" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HttpRequest.java" tooltip="A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/deals/HttpRequest.java">
+<persistable path="/A-YPMAndroidNew with Whats Happening Here/src/com/yellowpages/android/ypmobile/deals/HttpRequest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="group.png" tooltip="PennApps/res/drawable-hdpi/group.png">
+<persistable path="/PennApps/res/drawable-hdpi/group.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="profile.png" tooltip="PennApps/res/drawable-hdpi/profile.png">
+<persistable path="/PennApps/res/drawable-hdpi/profile.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="splash_register.xml" tooltip="PennApps/res/layout/splash_register.xml">
+<persistable path="/PennApps/res/layout/splash_register.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="logo.png" tooltip="PennApps/res/drawable-hdpi/logo.png">
+<persistable path="/PennApps/res/drawable-hdpi/logo.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.color.ColorEditor" name="buttons.xml" tooltip="A-YPMAndroidNew with Whats Happening Here/res/color/buttons.xml">
+<persistable path="/A-YPMAndroidNew with Whats Happening Here/res/color/buttons.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.color.ColorEditor" name="colors.xml" tooltip="PennApps/res/color/colors.xml">
+<persistable path="/PennApps/res/color/colors.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="theme.xml" tooltip="PennApps/res/values/theme.xml">
+<persistable path="/PennApps/res/values/theme.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" tooltip="PennApps/res/values/strings.xml">
+<persistable path="/PennApps/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="events_invites.xml" tooltip="PennApps/res/layout/events_invites.xml">
+<persistable path="/PennApps/res/layout/events_invites.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="splash_register.xml" tooltip="PennApps/res/event_invites/splash_register.xml">
+<persistable path="/PennApps/res/event_invites/splash_register.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="event_invites.xml" tooltip="PennApps/res/layout/event_invites.xml">
+<persistable path="/PennApps/res/layout/event_invites.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="events_layout.xml" tooltip="PennApps/res/layout/events_layout.xml">
+<persistable path="/PennApps/res/layout/events_layout.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EasyX509TrustManager.java" tooltip="PennApps/src/com/davidxu/pennapps/util/EasyX509TrustManager.java">
+<persistable path="/PennApps/src/com/davidxu/pennapps/util/EasyX509TrustManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EasySSLSocketFactory.java" tooltip="PennApps/src/com/davidxu/pennapps/util/EasySSLSocketFactory.java">
+<persistable path="/PennApps/src/com/davidxu/pennapps/util/EasySSLSocketFactory.java"/>
+</file>
+</mruList>
+</workbench>

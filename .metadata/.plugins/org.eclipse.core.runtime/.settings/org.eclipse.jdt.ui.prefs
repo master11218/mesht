@@ -1,0 +1,21 @@
+#Mon Sep 19 10:42:48 EDT 2011
+content_assist_proposals_foreground=0,0,0
+spelling_locale_initialized=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+fontPropagated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+Refactoring.savealleditors=true
+content_assist_proposals_background=255,255,255
+org.eclipse.jdt.ui.formatterprofiles.version=12
+content_assist_number_of_computers=13
+useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="com.davidxu.pennapps.util.HttpRequest$HttpMethod"/></lhs><lhs name\="com.davidxu.pennapps.util.HttpRequest$HttpMethod"><rhs name\="com.davidxu.pennapps.util.HttpRequest$HttpMethod"/></lhs><lhs name\="android.view.ViewGroup"><rhs name\="android.widget.LinearLayout"/><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.view.ViewParent"><rhs name\="android.widget.LinearLayout"/><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.view.ViewManager"><rhs name\="android.widget.LinearLayout"/><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.view.View"><rhs name\="android.widget.LinearLayout"/><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.graphics.drawable.Drawable$Callback"><rhs name\="android.widget.LinearLayout"/><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.view.KeyEvent$Callback"><rhs name\="android.widget.LinearLayout"/><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.view.accessibility.AccessibilityEventSource"><rhs name\="android.widget.LinearLayout"/><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.widget.LinearLayout"><rhs name\="android.widget.LinearLayout"/></lhs><lhs name\="android.widget.AbsListView"><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.text.TextWatcher"><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.view.ViewTreeObserver$OnGlobalLayoutListener"><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.widget.Filter$FilterListener"><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.view.ViewTreeObserver$OnTouchModeChangeListener"><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.text.NoCopySpan"><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.widget.AdapterView"><rhs name\="android.widget.ListView"/></lhs><lhs name\="android.widget.ListView"><rhs name\="android.widget.ListView"/></lhs></history>
+org.eclipse.jdt.ui.text.code_templates_migrated=true

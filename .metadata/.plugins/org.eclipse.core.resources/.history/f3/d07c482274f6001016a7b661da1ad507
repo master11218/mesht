@@ -1,0 +1,253 @@
+package com.davidxu.pennapps;
+
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+import com.davidxu.pennapps.util.HttpRequest;
+import com.davidxu.pennapps.util.HttpRequest.HttpMethod;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.View.OnClickListener;
+import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.HorizontalScrollView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class EventsActivity extends Activity implements OnClickListener{
+
+	private ArrayList<CheckBox> m_checkboxes = new ArrayList<CheckBox>();
+	private ArrayList<String> m_events = new ArrayList<String>();
+	private HttpRequest m_request = new HttpRequest();
+	private Button m_new;
+	private ListView m_list;
+	private EventAdapter m_listadapter;
+	private static final String BASE_URI = "http://www.getpaidtowatchyoutube.com/PennApps/";
+	private String M_ID;
+	private String m_new_event_index;
+	
+
+	private RelativeLayout m_event_new_wrapper;
+	private RelativeLayout m_event_wrapper;
+	private EditText m_location;
+	private EditText m_time;
+	private EditText m_description;
+	private Button m_plan;
+	
+	private ArrayList<String> m_friends = new ArrayList<String>();
+	private LinearLayout m_scrollview;
+	
+	public void onCreate(Bundle savedInstanceState) {
+		try{
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.events_layout);
+        M_ID = this.getIntent().getStringExtra("user_id");
+        M_ID.trim();
+        
+        //grab the events
+      		String f = m_request.execHttpRequest(BASE_URI + "getEvents.php?id=" + M_ID, HttpRequest.HttpMethod.Get, null);
+      		
+    		if(f == null)
+    			f = "";
+      		
+      		StringTokenizer temp = new StringTokenizer(f, ",");
+      		while(temp.hasMoreTokens()){
+      			String s = temp.nextToken().trim();
+      			if(!s.equals(""))
+      				m_events.add(s);
+      		}
+      		
+      	
+      	//grab the friends
+    		String tempStr = m_request.execHttpRequest(BASE_URI + "getFriendsList.php?userId=" + M_ID, HttpRequest.HttpMethod.Get, null);
+    		
+    		if(tempStr == null)
+    			tempStr = "";
+    		
+    		StringTokenizer tempTok = new StringTokenizer(tempStr, ",");
+    		while(tempTok.hasMoreTokens()){
+    			String te = tempTok.nextToken().trim();
+    			if(!te.equals(""))
+    				m_friends.add(te);
+    		}
+      		
+    	m_new_event_index = m_request.execHttpRequest(BASE_URI + "lastEvent.php", HttpRequest.HttpMethod.Get, null);
+    	m_new_event_index.trim();
+    	m_new_event_index = ((Integer)(1 + Integer.parseInt(m_new_event_index))).toString();
+    	
+      	m_list = (ListView)this.findViewById(R.id.events_listview);
+      	m_listadapter = new EventAdapter(this);
+      	m_list.setAdapter(m_listadapter);
+        
+      	
+      	m_event_new_wrapper = (RelativeLayout) this.findViewById(R.id.events_new_wrapper);
+      	m_event_wrapper = (RelativeLayout) this.findViewById(R.id.event_wrapper);
+      	m_new = (Button)this.findViewById(R.id.events_button);
+      	m_new.setOnClickListener(this);
+      	
+      	m_location = (EditText)this.findViewById(R.id.events_new_location);
+      	m_time = (EditText)this.findViewById(R.id.events_new_time);
+      	m_description = (EditText)this.findViewById(R.id.events_new_description);
+      	m_plan = (Button)this.findViewById(R.id.events_new_button);
+      	m_scrollview = (LinearLayout) this.findViewById(R.id.events_new_scroller);
+      	m_plan.setOnClickListener(this);
+
+		}
+		catch(Exception E){};
+    }
+	
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		if(v.equals(m_new)){
+			if(m_event_wrapper.getVisibility() == View.VISIBLE){
+				m_event_wrapper.setVisibility(View.GONE);
+				m_event_new_wrapper.setVisibility(View.VISIBLE);
+				
+				
+				LinearLayout list_result;
+				for(int i = 0; i < m_friends.size();i++){
+					LayoutInflater inf = (LayoutInflater)this.getSystemService(
+							Context.LAYOUT_INFLATER_SERVICE);
+					list_result = (LinearLayout) inf.inflate(R.layout.events_invites, null);
+					TextView t = (TextView) list_result.findViewById(R.id.events_invites_name);
+					//set the name
+					t.setText(m_request.execHttpRequest(BASE_URI + "getName.php?userId=" + m_friends.get(i),
+							HttpMethod.Get, null).trim());
+					//add the checkboxes to keep track.
+					CheckBox c = (CheckBox) list_result.findViewById(R.id.event_invite_checkbox);
+					m_checkboxes.add(c);
+					m_scrollview.addView(list_result);
+				}
+				
+				return;
+			}
+		}
+		if(v.equals(m_plan)){
+			String s = m_request.execHttpRequest(BASE_URI + "createEvent.php?owner=" + M_ID
+					+ "&location=" + m_location.getText().toString() + "&time=" + m_time.getText().toString()
+					+ "&description=" + m_description.getText().toString(), HttpRequest.HttpMethod.Get, null);
+			for(int i=0; i<m_checkboxes.size(); i++){
+				if(m_checkboxes.get(i).isChecked()){
+					String k = m_request.execHttpRequest(BASE_URI + "inviteUserToEvent.php?eid=" + m_new_event_index + "&uid=" + m_friends.get(i), HttpRequest.HttpMethod.Get, null);
+					System.out.println("Test: "+k);
+				}
+			}
+			System.out.println(s);
+			Toast.makeText(this, "Congratulations, your event has been planned! ", Toast.LENGTH_SHORT).show();
+			onBackPressed();
+			
+		}
+	}
+	 
+	@Override
+	public void onBackPressed(){
+
+		if(m_event_new_wrapper.getVisibility() == View.VISIBLE){
+			m_event_wrapper.setVisibility(View.VISIBLE);
+			m_event_new_wrapper.setVisibility(View.GONE);
+			return;
+		}
+		super.onBackPressed();
+	}
+	
+	public class EventAdapter extends BaseAdapter{
+		private Context m_context;
+		public EventAdapter(Context c){
+			m_context = c;
+		}
+		@Override
+		public int getCount() {
+			if(m_events != null)
+				return m_events.size();
+			else
+				return 0;
+		}
+		@Override
+		public Object getItem(int position) {
+			if(m_events != null)
+				return m_events.get(position);
+			else
+				return 0;
+		}
+		@Override
+		public long getItemId(int position) {
+			return position;
+		}
+		@Override
+		public View getView(int position, View convertView, ViewGroup parent) {
+			
+			
+			LinearLayout list_result;
+			if(convertView == null){
+				//inflate the view
+				LayoutInflater inf = (LayoutInflater)m_context.getSystemService(
+						Context.LAYOUT_INFLATER_SERVICE);
+				list_result = (LinearLayout) inf.inflate(R.layout.events_single, null);
+			}
+			else 
+				list_result = (LinearLayout)convertView; 
+			
+			TextView event_loc = (TextView) list_result.findViewById(R.id.events_single_location);
+			TextView event_creator = (TextView) list_result.findViewById(R.id.events_single_creator);
+			TextView event_time = (TextView) list_result.findViewById(R.id.events_single_time);
+			TextView event_description = (TextView) list_result.findViewById(R.id.events_single_description);
+			LinearLayout event_guests = (LinearLayout) list_result.findViewById(R.id.events_single_guests);
+			
+					
+			
+			String s = m_request.execHttpRequest(BASE_URI + "getEventDetails.php?id=" + m_events.get(position), HttpMethod.Get, null);
+			StringTokenizer temp = new StringTokenizer(s, "|");
+
+			String event_descriptionString = new String();
+			String event_creatorID = new String();
+			String event_timeString = new String();
+			String event_guestIDs = new String();
+			
+			String event_location = temp.nextToken().trim();
+			if(temp.hasMoreTokens())
+				event_descriptionString = temp.nextToken().trim();
+			if(temp.hasMoreTokens())
+				event_creatorID = temp.nextToken().trim();
+			if(temp.hasMoreTokens())
+				event_timeString = temp.nextToken().trim();
+			if(temp.hasMoreTokens())
+				event_guestIDs = temp.nextToken().trim();
+			
+			event_loc.setText(event_location);
+			event_description.setText(event_descriptionString);
+			event_creator.setText(m_request.execHttpRequest(BASE_URI + "getName.php?userId=" + event_creatorID,
+					HttpMethod.Get, null).trim());
+			event_time.setText(event_timeString);
+			
+			temp = new StringTokenizer(event_guestIDs, ",");
+			while(temp.hasMoreTokens()){
+				s = m_request.execHttpRequest(BASE_URI + "getName.php?userId=" + temp.nextToken(),
+						HttpMethod.Get, null).trim();
+				TextView t = new TextView(m_context);
+				t.setText(s);
+				t.setPadding(6, 3, 6, 3);
+				event_guests.addView(t);
+				
+			}
+			
+			
+
+			
+			return list_result;
+		}
+	}
+
+}
+
